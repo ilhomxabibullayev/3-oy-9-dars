@@ -1,0 +1,229 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+button {
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  padding: 0;
+  margin: 0px auto;
+}
+
+.header__decuration {
+  text-align: center;
+  background-color: #49BFC5;
+  color: white;
+  padding: 20px;
+}
+
+.header {
+  padding: 20px 100px;
+}
+.header .header__content {
+  display: flex;
+  align-items: center;
+  gap: 670px;
+}
+.header .header__content .header__logo {
+  width: 30px;
+}
+.header .header__content .header__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header .header__content .header__list .header__link {
+  color: #000;
+}
+.header .header__content .header__list .header__link:hover {
+  color: #AEE3E5;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-image: url("/images/hero-img.svg");
+  padding: 100px;
+}
+.hero .hero__title {
+  color: #000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  font-size: 46px;
+}
+.hero .hero__title .hero__active {
+  color: #49BFC5;
+}
+
+.company {
+  background-repeat: no-repeat;
+  background-image: url("/images/company-img.svg");
+  padding: 100px;
+}
+.company .company__title {
+  color: #000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  font-size: 46px;
+}
+.company .company__title .company__active {
+  color: #49BFC5;
+}
+
+.menu {
+  padding: 100px;
+}
+.menu .menu__container {
+  text-align: center;
+}
+.menu .menu__container .menu__content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transform: translateX(320px);
+  margin-bottom: 100px;
+}
+.menu .menu__container .menu__content .menu__button {
+  border: 1px solid hsla(0, 0%, 0%, 0.122);
+  background-color: white;
+  padding: 10px 25px;
+}
+.menu .menu__container .menu__content .menu__button:hover {
+  background-color: #49BFC5;
+}
+.menu .menu__container .menu__content .menu__button .menu__btn {
+  color: #000;
+}
+.menu .menu__container .menu__content .menu__button .menu__btn:hover {
+  color: white;
+}
+.menu .menu__container .menu__button2 {
+  border: 1px solid hsla(0, 0%, 0%, 0.122);
+  background-color: #49BFC5;
+  padding: 10px 25px;
+}
+.menu .menu__container .menu__btn2 {
+  color: white;
+  gap: 10px;
+}
+
+.fresh {
+  padding: 100px 100px;
+}
+.fresh .fresh__content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.fresh .fresh__content .fresh__title {
+  color: #20b2aa;
+  width: 300px;
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+.fresh .fresh__content .fresh__text {
+  width: 450px;
+  color: rgba(0, 0, 0, 0.6156862745);
+  margin-bottom: 50px;
+}
+.fresh .fresh__content .fresh__btn {
+  background-color: #20b2aa;
+  color: #fff;
+  padding: 20px 32px;
+}
+.fresh .fresh__content .fresh__img {
+  width: 130px;
+  transform: translateX(150px) translateY(-150px);
+}
+
+.footer {
+  padding: 50px 100px;
+  background-repeat: no-repeat;
+  background-image: url("/images/_footer-img.svg");
+  padding: 100px 0px;
+}
+.footer .footer__content {
+  display: flex;
+  align-items: start;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.footer .footer__block2 {
+  display: flex;
+  align-items: start;
+  gap: 70px;
+}
+.footer .footer__logo {
+  width: 30px;
+  margin-bottom: 15px;
+}
+.footer .footer__item {
+  margin-bottom: 15px;
+}
+.footer .footer__title {
+  color: hsla(0, 0%, 0%, 0.477);
+  width: 365px;
+}
+.footer .footer__sub-title {
+  color: #000;
+  margin-bottom: 25px;
+}
+.footer .footer__link {
+  color: hsla(0, 0%, 0%, 0.549);
+}
+.footer .footer__link:hover {
+  color: #000;
+}
+.footer .footer__block3 {
+  display: flex;
+  align-items: center;
+  gap: 650px;
+}
+.footer .footer__icon {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer .footer__img {
+  width: 20px;
+}
+.footer .footer__active {
+  color: #20b2aa;
+}/*# sourceMappingURL=main.css.map */

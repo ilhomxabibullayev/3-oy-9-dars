@@ -1,0 +1,33 @@
+.fresh {
+    padding: 100px 100px;
+
+    .fresh__content {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        .fresh__title {
+            color: #20b2aa;
+            width: 300px;
+            font-size: 46px;
+            margin-bottom: 20px;
+        }
+    
+        .fresh__text {
+            width: 450px;
+            color: #0000009d;
+            margin-bottom: 50px;
+        }
+    
+        .fresh__btn {
+            background-color: #20b2aa;
+            color: #fff;
+            padding: 20px 32px;
+        }
+
+        .fresh__img {
+            width: 130px;
+            transform: translateX(150px) translateY(-150px);
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.header__decuration {
+    text-align: center;
+    background-color: #49BFC5;
+    color: white;
+    padding: 20px;
+}
+
+.header {
+    padding: 20px 100px;
+
+    .header__content {
+        display: flex;
+        align-items: center;
+        gap: 670px;
+
+        .header__logo {
+            width: 30px;
+        }
+
+        .header__list {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+    
+            .header__link {
+                color: #000;
+        
+                &:hover {
+                    color: #AEE3E5;
+                }
+            }
+        }
+    }
+}
